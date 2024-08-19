@@ -1,7 +1,7 @@
 # Atividade_AnaliseAlg_PaginaDeMemoria
 Escrever programa em C capaz de escrever dados em formato de texto em páginas de memória virtual no sistema operacional.
 
-* A função open() abre o arquivo "biblia.txt" em modo somente leitura;*
+* A função open() abre o arquivo "biblia.txt" em modo somente leitura;
 * Verifica-se se a abertura foi bem-sucedida, caso contrário, o programa é encerrado com uma mensagem de erro;
 * A função fstat() obtém informações sobre o arquivo, incluindo o seu tamanho, que é armazenado em sb.st_size;
 * A função mmap() mapeia o arquivo inteiro para um endereço de memória virtual;
